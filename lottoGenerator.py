@@ -12,7 +12,7 @@ if gra == 'lotto':
     lotto.sort()
     print(lotto)
 elif gra == 'euro':
-    euro[0].append(random.sample(range(1, 50), 6))
+    euro[0].append(random.sample(range(1, 50), 5))
     euro[1].append(random.sample(range(1, 10), 2))
     print(euro)
 elif gra == 'ekstra':
